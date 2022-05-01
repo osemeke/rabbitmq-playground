@@ -38,6 +38,10 @@ Testing pub/sub implementations on microservice events using RabbitMQ as a messa
     www.rabbitmq.com/tutorials/tutorial-four-dotnet.html
     www.rabbitmq.com/tutorials/tutorial-five-dotnet.html
 
+## Workflow
+
+>   virtual host > user > exchange `routing_key` > `binding` queue > message
+
 ## Backround Worker Service
 
 
